@@ -25,11 +25,14 @@ The following methodologies were used for this project:
 - Build models to predict landing outcomes using Logistic regression, Support Vector Machine (SVM), Decision Tree and K-nearest Neighbors (KNN)
 
 # Results
-
-- **Model performance**: The models performed similarly on the test set. Due to the risk of overfitting on a small dataset, it advisable to avoid selecting more complex models. A less computationally intensive model is also a good choice (reduced training and prediction time). 
+  
+### EDA and Visual analytics results:
 - **Launch site**: All of the launch sites are near the equator and near coastlines.
 - **Launch success:** The launch success rate increases with time.
 - **Launch sites success rate:** KSC LC-39A site has the highest success rate amongst all sites.
 - **Payload Mass:** The higher the payload mass (kg), the higher the success rate.
+  
+### Predictive analysis using classification models results:
+- **Model performance**: The models performed similarly on the test set. Due to the risk of overfitting on a small dataset, it advisable to avoid selecting more complex models. A less computationally intensive model is also a good choice (reduced training and prediction time).
 - **Dataset size:** The dataset was relatively small. It is worth considering collecting more data to improve the model performance, prediction accuracy and reduce the false positive rate. 
 
